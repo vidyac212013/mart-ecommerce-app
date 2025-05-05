@@ -1,0 +1,71 @@
+
+.container-discount{
+    padding: 20px;
+    border-bottom: 100px;
+}
+.container-discount-head{
+    margin: 100px
+}
+.disc-col{
+    /* border: 5px solid whitesmoke; */
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1; */
+    /* margin: 10px; */
+}
+.disc-perc{
+    background-color:rgb(7, 7, 63);
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    width:70px;
+   height: 30px;
+}
+.disc-perc i{
+    color: white;
+    font-size: 20px;
+}
+.disc-perc p{
+    padding: 2px 0px;
+}
+.disc-image{ 
+   flex-grow: 2;
+   /* border: 1px solid red; */
+ }
+.disc-prod-head{
+    font-size: 23px;
+    text-align: left;
+    flex-grow: 3;
+}
+.disc-review{
+    color: yellow;
+    text-align: left;
+    font-size: 20px;
+    flex-grow: 1;
+}
+.disc-price{
+    font-size: 25px;
+    text-align: left;
+}
+.disc-price-add-item{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.disc-item-add{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(211, 207, 207);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.disc-item-add:hover{
+    cursor: pointer;
+    background-color:darkslateblue;
+    color: white;
+}

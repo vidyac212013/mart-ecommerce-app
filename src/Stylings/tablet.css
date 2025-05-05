@@ -1,0 +1,135 @@
+@media only screen and (min-width:768px) and (max-width:992px){
+    .react-hamburger-icon{
+        display: block;
+    }   
+    .react-hamburger-icon:hover{
+        cursor: pointer;
+    }     
+    .nav-menu{
+        display: none;
+    }
+    .hamburger-list{
+        z-index: 1;
+        opacity: 1;
+        color: black;
+    }
+    .slider{
+        display: grid !important;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .card-device-design{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);        
+    }
+    .card-col1{
+        margin-right:10px !important;
+        margin-bottom: 10px;
+    }
+    
+    .card-col2{
+        margin-left: 10px;
+        margin-bottom: 10px;
+
+    }
+     .card-col3{
+        margin-right:10px !important;
+        margin-bottom: 10px;
+     }
+      .card-col4{
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .new-product-device{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .new-product-device-wireless{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .discount-device{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .disc-image img{
+        width:200px;
+    }
+    .best-sales-device{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer-device{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .slider-div-desc{
+        /* border: 1px solid green; */
+        padding: 10px;
+        width: 100%;
+        margin: 0px;
+    }
+    .slider-div-desc h1{
+        word-wrap: normal;
+        font-size: 2rem;
+    }
+    .slider-div-img{
+        margin: auto;
+       
+        display:block; 
+      
+        width: 50%;
+        
+    }
+    .product-select-category{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+    }
+    .search-container{
+        width:100%;
+        padding: 10px;
+        display:grid;
+        grid-auto-flow: column;
+        margin: 0px;
+    }
+    .search-bar{
+        width: 500px;
+    }
+    .filter-product{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        border: 1px solid green;
+        
+    }
+    .filter-product-img img{
+        height: 100px;
+     }
+     .product-details-wrap{
+        display: flex;
+        /* display: grid;
+        grid-template-columns: repeat(2,ifr);
+        border: 1px solid blue; */
+     }
+     .rel-product-wrap{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .new-prod-add-cart{
+        font-size: 20px;
+    }
+    .mart-footer-col1{
+        margin: 50px 0px;
+        padding: 10px 0px;
+    }
+    .product-detail-img img{
+        width: 400px;
+    }
+    .prod-deatils-para p{
+        font-size: 22px !important;
+    }
+    .rel-prod-img img{
+        width: 250px;
+    }
+    /* .mart-footer-col1{
+        margin-right: 80px;
+    } */
+}

@@ -1,0 +1,15 @@
+.rel-prod-head{
+    margin-bottom: 100px;
+    text-align: left;
+    padding: 20px;
+}
+.rel-prod-img img{
+    height: 250px;
+    /* border: 1px solid orange; */
+}
+.rel-prod-name{ 
+    font-size: 20px;
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}

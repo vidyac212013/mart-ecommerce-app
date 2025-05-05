@@ -1,0 +1,130 @@
+.wraper{
+    position: sticky;
+    top:0;
+    /* opacity: 0.5; */
+    background-color: white;
+    z-index: 1;
+}
+.nav-header{
+    padding: 10px;
+    display: flex;
+    /* border-bottom: 1px solid ; */
+    /* justify-content: space-between; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position:sticky;
+    top:0px;
+    /* overflow: hidden; */
+    /* width: 100%; */
+}
+.logo-section{
+    flex: 8;
+    /* border: 1px solid green; */
+    font-size: 30px;
+    text-align: left;
+}
+.nav-menu{
+    display: flex;
+    flex:4;
+}
+ .header-li-section {
+    flex:2;
+     /* display: flex; */
+     /* border: 1px solid green; */
+}
+
+.header-icons{
+    flex:2;
+}
+
+.header-li-section ul{
+    display: flex;
+    justify-content: space-between;
+    /* flex:1; */
+}
+.header-li-section ul li{
+    flex: 1;
+    list-style: none;
+}
+.header-li-section ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header-icons ul{
+    display: flex;
+}
+.header-icons ul li{
+    list-style: none;
+}
+.header-icons ul li a{
+    text-decoration: none;
+}
+.icon-style{
+    padding: 10px;
+    color:"black";
+    margin-right: 20px;
+    font-size: 20px;
+} 
+.hamburger-icon{
+    display: none;
+}
+
+.product-carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+}
+.slider{
+    text-align: left;
+    display: flex !important;
+    justify-content:flex-end;
+    margin: 100px 0px;
+}
+.slider-btn{
+    font-size: 25px;    
+}
+.slider-btn:hover{
+    cursor: pointer;
+}
+.slider-div-desc{
+    padding: 30px;
+    /* border: 1px solid green; */
+    margin: 20px;
+    flex-grow: 1;
+}
+.slider-div-desc h1{
+    font-size: 3rem;
+    word-wrap: break-word;
+}
+.slider-div-img{
+    margin: 20px;   
+    flex-grow: 3; 
+    /* border: 1px solid brown; */
+}
+.slider-div-desc p{
+    font-size: 1.5rem;
+    text-align: left;
+    word-wrap: break-word;
+}
+.cart-count{
+    background-color: navy;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position:absolute;
+    top:5px;
+    right: 127px;
+    color: white;
+    font-size: 15px;
+}
+.react-hamburger-icon{
+    /* visibility: hidden; */
+    display: none;
+}
+.hamburger-list{
+    display: none;
+}
+.disc-image img{
+    height: 200px;
+}
